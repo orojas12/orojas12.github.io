@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Roboto;
+  src: url("./fonts/Roboto-Light.ttf");
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+header {
+  background-image: linear-gradient(rgba(255, 255, 255, .15), rgba(255, 255, 255, .15)),
+    url("./images/header_background.jpg");
+  background-position: 40% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  font-weight: 800;
+}
+
+footer {
+  background-color: darkgray;
+}
+
+
+.about-img {
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.nav-item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.link-img {
+  cursor: pointer;
+}
